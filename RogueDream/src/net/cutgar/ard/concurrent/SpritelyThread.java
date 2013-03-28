@@ -37,7 +37,7 @@ public class SpritelyThread implements Runnable{
 		s.setSearchGoogleImages(true);
 		s.setSearchOpenClipart(true);
 		s.setSearchWikimediaCommons(false);
-		s.setOutputPath("/develop/workspace/RogueDream-desktop");
+		s.setOutputPath("./");
 		s.setOutputFilename(target);
 		s.write(s.search());
 	}
